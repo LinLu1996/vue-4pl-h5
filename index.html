@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!--<meta name="viewport" content="width=device-width,initial-scale=1.0">-->
+    <title>中国移动IT能力库</title>
+    <% if (process.env.NODE_ENV === 'production') { %>
+    <!-- 生产环境 -->
+    <script>document.write('<script src="./static/config/index.js?t=' + new Date().getTime() + '"><\/script>');</script>
+    <script>document.write('<script src="./static/jquery/jquery-1.7.2.min.js?t=' + new Date().getTime() + '"><\/script>');</script>
+    <script>document.write('<script src="https://ah.moazq.chinamobile.com/resource/cmcc/group/js/common/moaBridge.min.js?t=' + new Date().getTime() + '"><\/script>');</script>
+    <% }else { %>
+    <!-- 开发环境 -->
+    <link rel="shortcut icon" type="image/x-icon" href="./static/img/favicon.ico">
+    <script src="./static/config/index.js"></script>
+    <script src="./static/jquery/jquery-1.7.2.min.js"></script>
+    <script src="https://ah.moazq.chinamobile.com/resource/cmcc/group/js/common/moaBridge.min.js"></script>
+    <% } %>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

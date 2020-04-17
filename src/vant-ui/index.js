@@ -1,0 +1,60 @@
+import Vue from 'vue'
+import {
+  Cell,
+  CellGroup,
+  Button,
+  Loading,
+  Icon,
+  Image,
+  NavBar,
+  Dialog,
+  Collapse,
+  CollapseItem,
+  Divider,
+  Field,
+  Search,
+  List,
+  PullRefresh,
+  Tabs,
+  Tab,
+  TreeSelect,
+  Swipe,
+  SwipeItem,
+  Overlay,
+  Lazyload,
+  Toast,
+  Popup,
+  ActionSheet,
+  Notify,
+  CountDown,
+  Sticky
+} from 'vant'
+
+Vue.use(Cell)
+Vue.use(CellGroup)
+Vue.use(Button)
+Vue.use(Loading)
+Vue.use(Icon)
+Vue.use(Image)
+Vue.use(NavBar)
+Vue.use(Dialog)
+Vue.use(Collapse)
+Vue.use(CollapseItem)
+Vue.use(Divider)
+Vue.use(Field)
+Vue.use(Search)
+Vue.use(List)
+Vue.use(PullRefresh)
+Vue.use(Tabs)
+Vue.use(Tab)
+Vue.use(TreeSelect)
+Vue.use(Swipe)
+Vue.use(SwipeItem)
+Vue.use(Overlay)
+Vue.use(Lazyload)
+Vue.use(Toast)
+Vue.use(Popup)
+Vue.use(ActionSheet)
+Vue.use(Notify)
+Vue.use(CountDown)
+Vue.use(Sticky)
