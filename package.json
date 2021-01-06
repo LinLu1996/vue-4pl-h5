@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "animate.css": "^3.7.2",
-    "axios": "^0.19.1",
+    "axios": "^0.21.1",
     "html2canvas": "^1.0.0-rc.5",
     "lib-flexible": "^0.3.2",
     "svg-sprite-loader": "^4.1.6",
